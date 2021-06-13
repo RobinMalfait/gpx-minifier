@@ -46,8 +46,8 @@ export default function Home() {
 
   return (
     <div className="bg-gray-100 flex flex-col items-center justify-center h-screen w-screen">
-      <div className="bg-white relative rounded-lg shadow max-w-lg w-full text-center">
-        <h1 className="p-12 text-4xl uppercase font-light tracking-widest text-gray-400">
+      <div className="bg-white h-64 flex items-center justify-center relative rounded-lg shadow max-w-lg w-full text-center">
+        <h1 className="p-12 text-4xl uppercase font-light tracking-widest text-gray-300">
           GPX Minifier
         </h1>
 
