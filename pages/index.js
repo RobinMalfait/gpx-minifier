@@ -55,6 +55,7 @@ export default function Home() {
           className={classNames(
             'border border-4 border-dashed absolute inset-4 rounded-lg',
             'transition-all duration-300 ease-in-out',
+            'opacity-60 hover:opacity-100',
             state === 'pending' && 'border-gray-300',
             state === 'busy' && 'border-yellow-300',
             state === 'done' && 'border-green-300'
@@ -63,7 +64,7 @@ export default function Home() {
           <input
             accept=".gpx"
             onChange={handleChange}
-            className="absolute inset-0 opacity-0"
+            className="cursor-pointer w-full absolute inset-0 opacity-0"
             type="file"
           />
         </div>
