@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <div className="bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center h-screen w-screen">
-      <div className="bg-white dark:bg-gray-800 h-64 flex items-center justify-center relative rounded-lg shadow-xl max-w-lg w-full text-center">
+      <div className="bg-gradient-to-br from-white to-gray-100 dark:from-gray-800 dark:via-gray-800 dark:to-gray-900 h-64 flex items-center justify-center relative rounded-lg shadow-xl max-w-lg w-full text-center">
         <h1 className="p-12 text-4xl uppercase font-light tracking-widest text-gray-300">
           GPX Minifier
         </h1>
